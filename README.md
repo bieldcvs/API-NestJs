@@ -26,6 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+
 ## Installation
 
 ```bash
@@ -33,6 +34,12 @@ $ yarn install
 ```
 
 ## Running the app
+
+npm install --save @nestjs/typeorm typeorm pg
+npm i --save @nestjs/config
+npm i bcrypt
+npx typeorm migration:create ./src/migration/createte ./src/migration/create_table_user
+
 
 ```bash
 # development
