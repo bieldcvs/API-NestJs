@@ -39,6 +39,7 @@ npm install --save @nestjs/typeorm typeorm pg
 npm i --save @nestjs/config
 npm i bcrypt
 npx typeorm migration:create ./src/migration/createte ./src/migration/create_table_user
+npm install @nestjs/cache-manager cache-manager
 
 
 ```bash
